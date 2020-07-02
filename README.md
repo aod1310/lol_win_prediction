@@ -4,7 +4,7 @@
 
 dataset : https://www.kaggle.com/bobbyscience/league-of-legends-diamond-ranked-games-10-min/
 
-데이터 설명
+# 데이터 설명
 
 이 데이터는 다이아몬드 상위권~마스터 티어의 랭크게임 약 1만 판에서 딱 10분일 때 기록된 데이터입니다
 
@@ -14,7 +14,7 @@ target class --> 블루팀 승리or패배(블루팀승리->레드팀패배, 블�
 
 
 
-칼럼 설명
+# 칼럼 설명
 
 blueWins : 블루팀 승리 여부(target class)
 
