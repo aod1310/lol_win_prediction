@@ -74,6 +74,12 @@ blueGoldPerMin : 블루팀 분 당 획득골드
 
 해보니까 학습은 굳이 DNN안쓰고 ML쪽 툴킷 써도 상관 없어보임
 
+++ Associtaion Rule을 이용하여
+
+승리와 가장 Confidence가 높은 칼럼들을 뽑고, 이 중에서 의미가 중복되는 것은 취사선택했습니다(Gold와 GoldDiff, GoldPerMin 등..)
+
+그냥 Correlation을 구했을때보다 정확도는 2%정도 더 높다(Corr--> 72%, Confidence-->74%)
+
 
 
 원체 역전도 자주나오고 변수도 많은 게임이라그런가 테스트셋 예측정확도가 72~4%에 머뭄
